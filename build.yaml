@@ -1,0 +1,12 @@
+targets:
+  $default:
+    builders:
+      slang_build_runner:
+        options:
+          input_directory: lib/core/i18n
+          input_file_pattern: .i18n.yaml
+          output_directory: lib/core/i18n
+          output_file_name: lang.gr.dart
+          output_format: single_file
+          namespaces: true
+          translate_var: lang
