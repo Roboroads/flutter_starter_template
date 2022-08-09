@@ -5,7 +5,7 @@ import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
 import 'package:material_color_generator/material_color_generator.dart';
 
 import 'core/app_router.dart';
-import 'core/i18n/lang.gr.dart';
+import 'core/i18n.gr.dart';
 import 'core/injection.dart';
 import 'core/theme/theme_colors.dart';
 
