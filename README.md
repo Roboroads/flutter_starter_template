@@ -4,10 +4,12 @@ I use this to start a new flutter project.
 
 ## Tech stack
 
-- Routing with AutoRoute
-- I18n with Slang
-- Dependency Injection with GetIt and Injectable
-- PlatformWidgets
+- Routing with (AutoRoute)[https://pub.dev/packages/auto_router]
+- I18n with (Slang)[https://pub.dev/packages/slang]
+- Dependency Injection with (GetIt)[https://pub.dev/packages/get_it] and (Injectable)[https://pub.dev/packages/injectable]
+- (PlatformWidgets)[https://pub.dev/packages/flutter_platform_widgets]
+- (Bloc)[https://pub.dev/packages/flutter_bloc] & (Equatable)[https://pub.dev/packages/equatable]
+- (DotEnv)[https://pub.dev/packages/flutter_dotenv]
 
 
 ## Installation
