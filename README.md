@@ -20,7 +20,7 @@ First, create a new flutter project. Then run the following commands:
 
 ```bash
 git clone https://github.com/Roboroads/flutter_starter_template.git
-rm -r lib flutter_starter_template/.git flutter_starter_template/.README.md
+rm -r lib flutter_starter_template/.* flutter_starter_template/README.md flutter_starter_template/pubspec.lock
 mv flutter_starter_template/* .
 rm -r flutter_starter_template
 make init # you need make for this!
@@ -31,10 +31,11 @@ make init # you need make for this!
 ```powershell
 git clone https://github.com/Roboroads/flutter_starter_template.git
 Remove-Item 'lib' -Recurse
-Remove-Item 'flutter_starter_template/.git' -Recurse
-Remove-Item 'flutter_starter_template/.README.md'
+Remove-Item 'flutter_starter_template/.*' -Recurse
+Remove-Item 'flutter_starter_template/README.md'
+Remove-Item 'flutter_starter_template/pubspec.lock'
 Move-Item -Path 'flutter_starter_template/*' -Destination .
-Remove-Item 'flutter_starter_template/.git' -Recurse
+Remove-Item 'flutter_starter_template' -Recurse
 make init # you need make for this!
 ```
 
