@@ -14,9 +14,9 @@ I use this to start a new flutter project.
 
 ## Installation
 
-First, create a new flutter project. Then run the following commands:
+First, create a new flutter project. Then run the following commands for your os:
 
-### Linux/MacOS
+**Linux/MacOS**
 
 ```bash
 git clone https://github.com/Roboroads/flutter_starter_template.git
@@ -26,7 +26,7 @@ rm -r flutter_starter_template
 make init # you need make for this!
 ```
 
-### Windows Powershell
+**Windows Powershell**
 
 ```powershell
 git clone https://github.com/Roboroads/flutter_starter_template.git
