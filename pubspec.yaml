@@ -22,6 +22,8 @@ dependencies:
   material_color_generator: ^1.1.0
   slang: ^2.7.0
   slang_flutter: ^2.7.0
+  flutter_bloc: ^8.0.1
+  equatable: ^2.0.3
 
 dev_dependencies:
   flutter_test:
