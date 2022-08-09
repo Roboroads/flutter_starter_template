@@ -8,9 +8,12 @@ I use this to start a new flutter project.
 - I18n with [Slang](https://pub.dev/packages/slang)
 - Dependency Injection with [GetIt](https://pub.dev/packages/get_it) and [Injectable](https://pub.dev/packages/injectable)
 - [PlatformWidgets](https://pub.dev/packages/flutter_platform_widgets)
-- [Bloc](https://pub.dev/packages/flutter_bloc) & [Equatable](https://pub.dev/packages/equatable)
-- [DotEnv](https://pub.dev/packages/flutter_dotenv)
-
+- [Bloc](https://pub.dev/packages/flutter_bloc) state management
+- Object equality with [Equatable](https://pub.dev/packages/equatable)
+- [DotEnv](https://pub.dev/packages/flutter_dotenv) 
+- Failure handling with [Dartz](https://pub.dev/packages/dartz)
+- [Freezed](https://pub.dev/packages/freezed) and [JSON Serializable](https://pub.dev/packages/json_serializable) for entity classes from JSON APIs.
+- Mock classes for testing with [Mockito](https://pub.dev/packages/mockito)
 
 ## Installation
 
