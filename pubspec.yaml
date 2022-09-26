@@ -23,7 +23,7 @@ dependencies:
   slang: ^2.8.0
   slang_flutter: ^2.8.0
   flutter_bloc: ^8.0.1
-  equatable: ^2.0.3
+  equatable: ^2.0.5
   http: ^0.13.5
   freezed_annotation: ^2.1.0
   json_annotation: ^4.6.0
